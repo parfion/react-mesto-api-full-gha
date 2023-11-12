@@ -118,9 +118,8 @@ class Api {
 }
 
 const api = new Api({
-	baseUrl: 'http://localhost:3000',
+	baseUrl: 'https://mesto.parfion.nomoredomainsrocks.ru',
 	headers: {
-	  // authorization: 'b2eb4ceb-9d74-43f2-a64d-7dea4a8d5d3c',
 	  'Content-Type': 'application/json'
 	}
   }); 
