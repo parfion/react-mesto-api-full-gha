@@ -118,7 +118,7 @@ class Api {
 }
 
 const api = new Api({
-	baseUrl: 'https://mesto.parfion.nomoredomainsrocks.ru',
+	baseUrl: 'https://api.mesto.parfion.nomoredomainsrocks.ru',
 	headers: {
 	  'Content-Type': 'application/json'
 	}
