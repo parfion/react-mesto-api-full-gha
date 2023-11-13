@@ -13,7 +13,7 @@ const {
 } = process.env;
 
 const app = express();
-app.use(cors({ origin: ['http://localhost:3001', 'http://mesto.parfion.nomoredomainsrocks.ru'], credentials: true, maxAge: 30 }));
+app.use(cors());
 app.use(cookieParser());
 
 mongoose.connect(`${MONGO_URL}`, {
@@ -23,7 +23,7 @@ mongoose.connect(`${MONGO_URL}`, {
 
 app.use(express.json());
 
-app.use('/api/', router);
+app.use(router);
 
 app.use(errors());
 app.use(errorHandler);
