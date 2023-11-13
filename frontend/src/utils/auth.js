@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://mesto.parfion.nomoredomainsrocks.ru';
+export const BASE_URL = 'https://mesto.parfion.nomoredomainsrocks.ru';
 
 const checkResponse = (res) => {
     return res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`);
