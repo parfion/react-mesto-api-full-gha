@@ -1,3 +1,5 @@
+const { REACT_APP_API_URL } = process.env;
+
 class Api {
   constructor(options) {
       this._baseUrl = options.baseUrl;
@@ -118,7 +120,7 @@ class Api {
 }
 
 const api = new Api({
-	baseUrl: 'http://mesto.parfion.nomoredomainsrocks.ru/api',
+	baseUrl: REACT_APP_API_URL,
 	headers: {
 	  'Content-Type': 'application/json'
 	}

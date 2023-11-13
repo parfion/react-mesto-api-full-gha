@@ -1,11 +1,12 @@
-export const BASE_URL = 'http://mesto.parfion.nomoredomainsrocks.ru/api';
+// export const REACT_APP_API_URL = 'http://mesto.parfion.nomoredomainsrocks.ru/api';
+export const { REACT_APP_API_URL } = process.env;
 
 const checkResponse = (res) => {
     return res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`);
   };
 
 export const register = (email, password) => {
-  return fetch(`${BASE_URL}/signup`, {
+  return fetch(`${REACT_APP_API_URL}/signup`, {
     method: 'POST',
     headers: {
       Accept: "application/json",
@@ -17,7 +18,7 @@ export const register = (email, password) => {
 };
 
 export const login = (email, password) => {
-  return fetch(`${BASE_URL}/signin`, {
+  return fetch(`${REACT_APP_API_URL}/signin`, {
     method: 'POST',
     headers: {
       "Content-Type": "application/json"
@@ -34,7 +35,7 @@ export const login = (email, password) => {
 };
 
 export const checkToken = (token) => {
-  return fetch(`${BASE_URL}/users/me`, {
+  return fetch(`${REACT_APP_API_URL}/users/me`, {
     method: 'GET',
     headers: {
       "Content-Type": "application/json",
