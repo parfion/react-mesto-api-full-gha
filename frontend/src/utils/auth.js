@@ -6,7 +6,7 @@ const checkResponse = (res) => {
   };
 
 export const register = (email, password) => {
-  return fetch('http://mesto.parfion.nomoredomainsrocks.ru/api/signup', {
+  return fetch(`${REACT_APP_API_URL}/signup`, {
     method: 'POST',
     headers: {
       Accept: "application/json",
@@ -15,6 +15,9 @@ export const register = (email, password) => {
     body: JSON.stringify({email, password}),
     })
     .then((res) => checkResponse(res))
+    .then(res => {
+      return res;
+    });
 };
 
 export const login = (email, password) => {
