@@ -1,11 +1,11 @@
-export const REACT_APP_API_URL = 'http://mesto.parfion.nomoredomainsrocks.ru/api';
-// export const { REACT_APP_API_URL } = process.env;
+export const { REACT_APP_API_URL } = process.env;
 
 const checkResponse = (res) => {
     return res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`);
   };
 
 export const register = (email, password) => {
+  console.log(REACT_APP_API_URL)
   return fetch(`${REACT_APP_API_URL}/signup`, {
     method: 'POST',
     headers: {
@@ -15,9 +15,6 @@ export const register = (email, password) => {
     body: JSON.stringify({email, password}),
     })
     .then((res) => checkResponse(res))
-    .then(res => {
-      return res;
-    });
 };
 
 export const login = (email, password) => {
