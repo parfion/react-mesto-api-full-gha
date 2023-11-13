@@ -1,5 +1,6 @@
 {
   "name": "mesto-react-auth",
+  "homepage": "https://mesto.parfion.nomoredomainsrocks.ru",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
