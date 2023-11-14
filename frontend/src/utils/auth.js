@@ -5,7 +5,6 @@ const checkResponse = (res) => {
   };
 
 export const register = (email, password) => {
-  console.log(REACT_APP_API_URL)
   return fetch(`${REACT_APP_API_URL}/signup`, {
     method: 'POST',
     headers: {
