@@ -13,7 +13,9 @@ const {
 } = process.env;
 
 const app = express();
-app.use(cors());
+// app.use(cors());"
+app.use(cors({ origin: ['http://localhost:3001', 'https://mesto.parfion.nomoredomainsrocks.ru'], credentials: true, maxAge: 30 }));
+
 app.use(cookieParser());
 
 mongoose.connect(`${MONGO_URL}`, {
