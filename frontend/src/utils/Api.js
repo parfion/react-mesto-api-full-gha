@@ -1,4 +1,6 @@
-const { REACT_APP_API_URL } = process.env;
+// const { REACT_APP_API_URL } = process.env;
+const { REACT_APP_API_URL } = 'http://localhost:3000';
+
 
 class Api {
   constructor(options) {
