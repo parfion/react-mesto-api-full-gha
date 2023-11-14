@@ -1,5 +1,4 @@
-// const { REACT_APP_API_URL } = process.env;
-const REACT_APP_API_URL = 'http://api.mesto.parfion.nomoredomainsrocks.ru';
+const { REACT_APP_API_URL } = process.env;
 
 const checkResponse = (res) => {
     return res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`);

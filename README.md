@@ -13,4 +13,4 @@ IP-адрес 158.160.29.74
 
 Frontend https://mesto.parfion.nomoredomainsrocks.ru
 
-Backend https://mesto.parfion.nomoredomainsrocks.ru/api
+Backend https://api.mesto.parfion.nomoredomainsrocks.ru
