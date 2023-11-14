@@ -23,7 +23,7 @@ mongoose.connect(`${MONGO_URL}`, {
 
 app.use(express.json());
 
-app.use(router);
+app.use('/api/', router);
 
 app.use(errors());
 app.use(errorHandler);
