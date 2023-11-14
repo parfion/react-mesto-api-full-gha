@@ -1,4 +1,5 @@
-const { REACT_APP_API_URL } = process.env;
+// const { REACT_APP_API_URL } = process.env;
+const { REACT_APP_API_URL } = 'http://mesto.parfion.nomoredomainsrocks.ru';
 
 class Api {
   constructor(options) {
