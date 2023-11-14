@@ -23,12 +23,6 @@ mongoose.connect(`${MONGO_URL}`, {
 
 app.use(express.json());
 
-app.get('/crash-test', () => {
-  setTimeout(() => {
-    throw new Error('Сервер сейчас упадёт');
-  }, 0);
-});
-
 app.use('/api/', router);
 
 app.use(errors());
