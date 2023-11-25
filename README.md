@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP 158.160.29.74
+IP 158.160.29.74 
 
 Frontend https://mesto.parfion.nomoredomainsrocks.ru
 
