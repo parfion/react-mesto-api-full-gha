@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 const express = require('express');
+require('dotenv').config();
 const mongoose = require('mongoose');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
@@ -9,7 +10,7 @@ const router = require('./routes/index');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const {
-  PORT = 3000,
+  PORT = 3002,
   MONGO_URL = 'mongodb://127.0.0.1:27017/mestodb',
 } = process.env;
 
