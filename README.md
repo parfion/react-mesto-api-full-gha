@@ -11,6 +11,6 @@
 
 IP 158.160.28.176 
 
-Frontend [https://mesto.parfion.nomoredomainsrocks.ru](https://mesto-react.parfion.nomoredomainsrocks.ru)
+Frontend https://mesto-react.parfion.nomoredomainsrocks.ru
 
-Backend [https://api.mesto.parfion.nomoredomainsrocks.ru](https://mesto-react.parfion.nomoredomainsrocks.ru)
+Backend https://mesto-react.parfion.nomoredomainsrocks.ru/api
