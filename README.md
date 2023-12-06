@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP 84.201.142.195 
+IP 158.160.28.176 
 
-Frontend https://mesto.parfion.nomoredomainsrocks.ru
+Frontend [https://mesto.parfion.nomoredomainsrocks.ru](https://mesto-react.parfion.nomoredomainsrocks.ru)
 
-Backend https://api.mesto.parfion.nomoredomainsrocks.ru
+Backend [https://api.mesto.parfion.nomoredomainsrocks.ru](https://mesto-react.parfion.nomoredomainsrocks.ru)https://mesto-react.parfion.nomoredomainsrocks.ru
