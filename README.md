@@ -1,11 +1,13 @@
-[![Статус тестов](../../actions/workflows/tests.yml/badge.svg)](../../actions/workflows/tests.yml)
+[![Статус тестов](../../actions/workflows/tests.yml/badge.svg)](../../actions/workflows/tests.yml
 
-# Проект "Место: Frontend + Backend"
-Репозиторий для приложения проекта `Mesto`, включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками и пользователями. Бэкенд расположите в директории `backend/`, а фронтенд - в `frontend/`. 
-  
-[Cайт](https://mesto.parfion.nomoredomainsrocks.ru) размещен на Яндекс.Облаке.
+[# Проект "Место: Frontend + Backend"](https://mesto-react.parfion.nomoredomainsrocks.ru)
 
-Адрес репозитория: https://github.com/parfion/react-mesto-api-full-gha
+Проект `Mesto`, включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с добавлениеи удалением любимых мест для путешествий.
+Cайт размещен на Яндекс.Облаке.
+Проект сверстан по технолгии БЭМ, с ипользованием адаптивной и кроссбраузерной верстки, flexbox и grid layout. 
+
+## Технологии и стек:
+`HTML5` `CSS3` `JS6` `BEM` `Git `Адаптивная верстка` `Кроссбраузерная верстка` `Flexbox` `Grid Layout` `NPM` `Webpack` `React` `React Hook` `Babel` `eslint` `Express` `MongoDB` `PM2`
 
 ## Ссылки на проект
 
