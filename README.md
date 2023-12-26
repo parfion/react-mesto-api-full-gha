@@ -1,5 +1,3 @@
-[![Статус тестов](../../actions/workflows/tests.yml/badge.svg)](../../actions/workflows/tests.yml)
-
 [Проект "Место: Frontend + Backend"](https://mesto-react.parfion.nomoredomainsrocks.ru)
 
 Проект "Mesto", включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с добавлениеи удалением любимых мест для путешествий.
