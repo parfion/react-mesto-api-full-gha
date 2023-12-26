@@ -8,7 +8,7 @@ Cайт размещен на Яндекс.Облаке.
 https://www.figma.com/file/bjyvbKKJN2naO0ucURl2Z0/JavaScript.-Sprint-5?node-id=0%3A1&mode=dev
 
 ### Технологии и стек:
-`HTML5` `CSS3` `JS6` `BEM` `Git` `Адаптивная верстка` `Кроссбраузерная верстка` `Flexbox` `Grid Layout` `NPM` `Webpack` `API` `Функциональные компоненты` `Классовые компоненты` `React` `React Hook` `Babel` `eslint` `LocalStorage` `Express` `MongoDB` `PM2`
+`HTML5` `CSS3` `JS6` `BEM` `Git` `Адаптивная верстка` `Кроссбраузерная верстка` `Flexbox` `Grid Layout` `NPM` `Webpack` `API` `Функциональные компоненты` `Классовые компоненты` `React` `React Hook` `Babel` `eslint` `LocalStorage` `Express` `NoSQL` `MongoDB` `PM2`
 
 ### Ссылки на проект
 IP 158.160.28.176 
