@@ -1,13 +1,16 @@
-[Проект "Место: Frontend + Backend"](https://mesto-react.parfion.nomoredomainsrocks.ru)
+## [Mesto: Frontend + Backend](https://mesto-react.parfion.nomoredomainsrocks.ru)
 
-Проект "Mesto", включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с добавлениеи удалением любимых мест для путешествий.
+### Описание
+Проект "Mesto", включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с добавлением и удалением любимых мест для путешествий.
 Cайт размещен на Яндекс.Облаке.
 
-## Технологии и стек:
-`HTML5` `CSS3` `JS6` `BEM` `Git` `Адаптивная верстка` `Кроссбраузерная верстка` `Flexbox` `Grid Layout` `NPM` `Webpack` `React` `React Hook` `Babel` `eslint` `Express` `MongoDB` `PM2`
+### Макет в Figma:
+https://www.figma.com/file/bjyvbKKJN2naO0ucURl2Z0/JavaScript.-Sprint-5?node-id=0%3A1&mode=dev
 
-## Ссылки на проект
+### Технологии и стек:
+`HTML5` `CSS3` `JS6` `BEM` `Git` `Адаптивная верстка` `Кроссбраузерная верстка` `Flexbox` `Grid Layout` `NPM` `Webpack` `API` `Функциональные компоненты` `Классовые компоненты` `React` `React Hook` `Babel` `eslint` `LocalStorage` `Express` `MongoDB` `PM2`
 
+### Ссылки на проект
 IP 158.160.28.176 
 
 Frontend https://mesto-react.parfion.nomoredomainsrocks.ru
